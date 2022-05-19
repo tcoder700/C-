@@ -24,6 +24,7 @@ return NULL;
 }
 
     //approach 2 = hash map , unordered map technique , time complexity  O(N) - best possible solution
+
     vector<int> ans{-1,-1};
     unordered_map<int,int> mp;
     for(int i=0;i<nums.size();i++)
